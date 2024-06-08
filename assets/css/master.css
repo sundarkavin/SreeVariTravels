@@ -70,4 +70,13 @@ button:focus {
     .main-slider__link {
         margin-top: 35px !important;
     }
+    .b-contacts__title{
+        text-align: center;
+    }
+    .b-contacts__info{
+        text-align: center;
+    }
+  }
+  .b-goods-slider__list{
+    font-size: 14px;
   }
