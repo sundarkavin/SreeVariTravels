@@ -877,6 +877,7 @@
     <script src="assets/js/custom.js"></script>
     <!-- Main slider-->
     <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQXY65QR68"></script>
     <!-- Sliders-->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -902,6 +903,13 @@
         // Initialize LazyLoad
         new LazyLoad();
       });
+       
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WQXY65QR68');
     </script>
   </body>
 </html>
